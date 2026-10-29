@@ -1,1 +1,0 @@
-git diff --check main...HEAD -> codigo de salida 0

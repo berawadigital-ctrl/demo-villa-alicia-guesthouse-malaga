@@ -1,9 +1,0 @@
-OK    tests_villa_alicia_guesthouse_malaga: 4 idiomas + chatbot contra la base (HTTP)
-OK    a11y_test: axe-core + teclado (HTTP)
-OK    contrast_manual: contraste de nodos «incompletos» de axe
-OK    keys_test: claves del chat sin ambiguedad
-OK    sec_scan: revision estatica + CSP efectiva
-OK    tests_villa_alicia_guesthouse_malaga por file://
-OK    a11y_test por file://
-
-7/7 comprobaciones OK · resultados en /workspace/agentes/webs/demos-v10/repos/demo-villa-alicia-guesthouse-malaga/berawa/evidence/qa/zip
