@@ -133,7 +133,7 @@ def build(d,kb,out,imgs,alts,stage):
     around_sec=(f'<section><div class="wrap"><h2 data-t="around_t">{html.escape(es["around_t"])}</h2><p class="sub" data-t="around_s">{html.escape(es["around_s"])}</p><ul class="chips">{around}</ul></div></section>' if d['around'] else '')
     stats=''.join(tt(f'stat{i}') for i in range(len(d['t']['es']['stats'])))
     svc=''.join(f'<li data-t="svc{i}">{html.escape(es[f"svc{i}"])}</li>' for i in range(len(d['t']['es']['svcs'])))
-    phones=' · '.join(f'<a href="tel:+34{p.replace(" ","")}">{p}</a>' for p in d['phones'])
+    phones=' · '.join(f'<a href="tel:{(p if p.startswith("+") else "+34"+p).replace(" ","")}">{p}</a>' for p in d['phones'])
     mails=' · '.join(f'<a href="mailto:{e}">{e}</a>' for e in d['emails'])
     cls_ac='' if sec else ' style="color:var(--ac)"'
     langb=''.join(f'<button type="button" data-l="{l}" aria-pressed="false"'+(f' lang="{l}"' if a11y else '')+f'>{l.upper()}</button>' for l in LANGS)

@@ -146,7 +146,7 @@ def render(d,out):
         extra='<section><div class="wrap"><h2 data-t="around_t"></h2><p class="sub" data-t="around_s"></p><ul class="chips">'+''.join(f'<li>{html.escape(x)}</li>' for x in d['around'])+'</ul></div></section>'
     stats=''.join(f'<span data-t="stat{i}"></span>' for i in range(d['nstats']))
     svc=''.join(f'<li data-t="svc{i}"></li>' for i in range(d['nsvc']))
-    phones=' · '.join(f'<a href="tel:+34{p.replace(" ","")}">{p}</a>' for p in d['phones'])
+    phones=' · '.join(f'<a href="tel:{(p if p.startswith("+") else "+34"+p).replace(" ","")}">{p}</a>' for p in d['phones'])
     mails=' · '.join(f'<a href="mailto:{e}">{e}</a>' for e in d['emails'])
     B=html.escape(d['book']['es'])
     data=dict(i18n=d['i18n'],book=d['book'],roombook={})
