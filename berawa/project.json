@@ -1,0 +1,68 @@
+{
+ "schema": "berawa-project/1",
+ "slug": "demo-villa-alicia-guesthouse-malaga",
+ "template_version": "webfactory-2026.10.28+modelo-cazorla-6cfa67d",
+ "created_at": "2026-10-29T13:04:00+01:00",
+ "updated_at": "2026-10-29T13:15:00+01:00",
+ "business": {
+  "name": "Villa Alicia Guest House",
+  "legal_name": "Unión Familiar Malacitana de Inversiones, S.L.",
+  "registry_ids": [
+   "CIF B92050145"
+  ],
+  "url": "https://guesthousealicia.com/",
+  "domain": "guesthousealicia.com",
+  "municipality": "Málaga",
+  "province": "Málaga",
+  "address": "C/ Conde de Ureña, 12 · 29012 Málaga",
+  "phones": [
+   "+34 622 32 24 76"
+  ],
+  "emails": [
+   "hola@guesthousealicia.com"
+  ],
+  "sector": "casa de huéspedes (bed and breakfast) de principios de 1900 en el barrio de la Victoria de Málaga"
+ },
+ "rating": {
+  "value": 4.3,
+  "source": "Google Maps (maps_rating.py, ficha comprobada por telefono, web)",
+  "url": "https://www.google.com/maps/place/Villa+Alicia+Guest+House/@36.7290855,-4.411174,17z/data=!4m9!3m8!1s0xd72f794cc2c81b7:0x401d511137130bdc!5m2!4m1!1i2!8m2!3d36.7290855!4d-4.411174!16s%2Fg%2F1tfd_62l",
+  "date": "2026-10-29T10:23:18+01:00",
+  "threshold": 4.0
+ },
+ "languages": [
+  "es",
+  "ca",
+  "en",
+  "fr"
+ ],
+ "noindex": true,
+ "notice_es": "Propuesta de rediseño independiente, no oficial",
+ "chatbot": {
+  "api": false,
+  "kind": "base local de respuestas verificadas",
+  "knowledge": "berawa/knowledge.json",
+  "fallback_es": "No dispongo de esa información"
+ },
+ "book": {
+  "mode": "engine",
+  "url": {
+   "es": "https://hotels.cloudbeds.com/reservation/YMJZTS",
+   "ca": "https://hotels.cloudbeds.com/reservation/YMJZTS",
+   "en": "https://hotels.cloudbeds.com/reservation/YMJZTS",
+   "fr": "https://hotels.cloudbeds.com/reservation/YMJZTS"
+  },
+  "note": "Las reservas van al motor de reservas real del establecimiento (Cloudbeds, /reservation/YMJZTS, el enlace de su boton «Reservar»); la demo no construye ningun motor."
+ },
+ "audit_original": {
+  "url": "https://guesthousealicia.com/",
+  "date": "2026-10-29T12:51:31+01:00",
+  "veredicto": "LCP > 4 s",
+  "tool": "filtro_mala_web.py (Lighthouse movil, mediana de 3 pasadas)"
+ },
+ "first_of_type": "no aplica: alojamiento con precedente en demos anteriores",
+ "codex": {
+  "audits": []
+ },
+ "changes_log": "ver CORRECCIONES.md (si existe) y berawa/V1.0-CAMBIOS.md"
+}
