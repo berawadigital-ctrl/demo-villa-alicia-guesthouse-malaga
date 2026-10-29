@@ -1,0 +1,65 @@
+{
+ "checks": {
+  "S01 sin <script> inline": {
+   "ok": true,
+   "detalle": ""
+  },
+  "S02 sin <style> ni style=\"\" inline": {
+   "ok": true,
+   "detalle": ""
+  },
+  "S03 sin manejadores on*=": {
+   "ok": true,
+   "detalle": ""
+  },
+  "S04 sin innerHTML/outerHTML/insertAdjacentHTML/document.write/eval/new Function": {
+   "ok": true,
+   "detalle": "revisado app.js + index.html"
+  },
+  "S05 todo target=_blank con rel=\"noopener noreferrer\" (HTML)": {
+   "ok": true,
+   "detalle": "8 enlaces"
+  },
+  "S05b target=_blank creados por JS con rel noopener noreferrer": {
+   "ok": true,
+   "detalle": ""
+  },
+  "S06 sin scripts, CSS, fuentes ni imágenes de terceros": {
+   "ok": true,
+   "detalle": "dominios enlazados (solo enlaces de salida): ['https://hotels.cloudbeds.com', 'https://www.google.com']"
+  },
+  "S07 CSP por meta presente": {
+   "ok": true,
+   "detalle": ""
+  },
+  "S08 CSP sin 'unsafe-inline', 'unsafe-eval' ni comodines": {
+   "ok": true,
+   "detalle": "default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'none'; form-action 'none'; base-uri 'none'; object-src 'none'; media-src 'none'; frame-src 'none'; manifest-src 'none'"
+  },
+  "S09 referrer no-referrer": {
+   "ok": true,
+   "detalle": ""
+  },
+  "S10 sin secretos/claves/tokens en el código": {
+   "ok": true,
+   "detalle": ""
+  },
+  "S11 la CSP bloquea script inline inyectado": {
+   "ok": true,
+   "detalle": "violaciones registradas: ['connect-src', 'img-src', 'script-src-elem', 'style-src-attr']"
+  },
+  "S12 la CSP bloquea imagen/fetch externos": {
+   "ok": true,
+   "detalle": ""
+  },
+  "S13 el texto escrito en el chat no se interpreta como HTML": {
+   "ok": true,
+   "detalle": "&lt;img src=x onerror=window.__x=1&gt;&lt;b&gt;hola&lt;/b&gt;"
+  }
+ },
+ "fail": [],
+ "url_externas_en_js": [
+  "https://hotels.cloudbeds.com"
+ ],
+ "ok": true
+}

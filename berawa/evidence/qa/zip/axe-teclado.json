@@ -1,0 +1,414 @@
+{
+ "axe_version": "4.14.0",
+ "tags": [
+  "wcag2a",
+  "wcag2aa",
+  "wcag21a",
+  "wcag21aa",
+  "wcag22aa",
+  "best-practice"
+ ],
+ "url": "http://127.0.0.1:38657/index.html",
+ "runs": [
+  {
+   "estado": "desktop/es/inicio",
+   "violaciones": [],
+   "incompletas": [
+    {
+     "id": "color-contrast",
+     "n": 15
+    },
+    {
+     "id": "label-content-name-mismatch",
+     "n": 1
+    }
+   ],
+   "pasan": 42
+  },
+  {
+   "estado": "desktop/es/chat-abierto",
+   "violaciones": [],
+   "incompletas": [
+    {
+     "id": "color-contrast",
+     "n": 15
+    },
+    {
+     "id": "label-content-name-mismatch",
+     "n": 2
+    }
+   ],
+   "pasan": 47
+  },
+  {
+   "estado": "desktop/ca/inicio",
+   "violaciones": [],
+   "incompletas": [
+    {
+     "id": "color-contrast",
+     "n": 15
+    },
+    {
+     "id": "label-content-name-mismatch",
+     "n": 1
+    }
+   ],
+   "pasan": 42
+  },
+  {
+   "estado": "desktop/ca/chat-abierto",
+   "violaciones": [],
+   "incompletas": [
+    {
+     "id": "color-contrast",
+     "n": 15
+    },
+    {
+     "id": "label-content-name-mismatch",
+     "n": 2
+    }
+   ],
+   "pasan": 47
+  },
+  {
+   "estado": "desktop/en/inicio",
+   "violaciones": [],
+   "incompletas": [
+    {
+     "id": "color-contrast",
+     "n": 15
+    },
+    {
+     "id": "label-content-name-mismatch",
+     "n": 1
+    }
+   ],
+   "pasan": 42
+  },
+  {
+   "estado": "desktop/en/chat-abierto",
+   "violaciones": [],
+   "incompletas": [
+    {
+     "id": "color-contrast",
+     "n": 15
+    },
+    {
+     "id": "label-content-name-mismatch",
+     "n": 2
+    }
+   ],
+   "pasan": 47
+  },
+  {
+   "estado": "desktop/fr/inicio",
+   "violaciones": [],
+   "incompletas": [
+    {
+     "id": "color-contrast",
+     "n": 15
+    },
+    {
+     "id": "label-content-name-mismatch",
+     "n": 1
+    }
+   ],
+   "pasan": 42
+  },
+  {
+   "estado": "desktop/fr/chat-abierto",
+   "violaciones": [],
+   "incompletas": [
+    {
+     "id": "color-contrast",
+     "n": 15
+    },
+    {
+     "id": "label-content-name-mismatch",
+     "n": 2
+    }
+   ],
+   "pasan": 47
+  },
+  {
+   "estado": "movil/es/inicio",
+   "violaciones": [],
+   "incompletas": [
+    {
+     "id": "color-contrast",
+     "n": 12
+    },
+    {
+     "id": "label-content-name-mismatch",
+     "n": 2
+    }
+   ],
+   "pasan": 42
+  },
+  {
+   "estado": "movil/es/menu-abierto",
+   "violaciones": [],
+   "incompletas": [
+    {
+     "id": "color-contrast",
+     "n": 12
+    },
+    {
+     "id": "label-content-name-mismatch",
+     "n": 2
+    }
+   ],
+   "pasan": 42
+  },
+  {
+   "estado": "movil/es/chat-abierto",
+   "violaciones": [],
+   "incompletas": [
+    {
+     "id": "color-contrast",
+     "n": 13
+    },
+    {
+     "id": "label-content-name-mismatch",
+     "n": 3
+    }
+   ],
+   "pasan": 47
+  },
+  {
+   "estado": "movil/ca/inicio",
+   "violaciones": [],
+   "incompletas": [
+    {
+     "id": "color-contrast",
+     "n": 12
+    },
+    {
+     "id": "label-content-name-mismatch",
+     "n": 2
+    }
+   ],
+   "pasan": 42
+  },
+  {
+   "estado": "movil/ca/menu-abierto",
+   "violaciones": [],
+   "incompletas": [
+    {
+     "id": "color-contrast",
+     "n": 12
+    },
+    {
+     "id": "label-content-name-mismatch",
+     "n": 2
+    }
+   ],
+   "pasan": 42
+  },
+  {
+   "estado": "movil/ca/chat-abierto",
+   "violaciones": [],
+   "incompletas": [
+    {
+     "id": "color-contrast",
+     "n": 13
+    },
+    {
+     "id": "label-content-name-mismatch",
+     "n": 3
+    }
+   ],
+   "pasan": 47
+  },
+  {
+   "estado": "movil/en/inicio",
+   "violaciones": [],
+   "incompletas": [
+    {
+     "id": "color-contrast",
+     "n": 12
+    },
+    {
+     "id": "label-content-name-mismatch",
+     "n": 2
+    }
+   ],
+   "pasan": 42
+  },
+  {
+   "estado": "movil/en/menu-abierto",
+   "violaciones": [],
+   "incompletas": [
+    {
+     "id": "color-contrast",
+     "n": 12
+    },
+    {
+     "id": "label-content-name-mismatch",
+     "n": 2
+    }
+   ],
+   "pasan": 42
+  },
+  {
+   "estado": "movil/en/chat-abierto",
+   "violaciones": [],
+   "incompletas": [
+    {
+     "id": "color-contrast",
+     "n": 13
+    },
+    {
+     "id": "label-content-name-mismatch",
+     "n": 3
+    }
+   ],
+   "pasan": 47
+  },
+  {
+   "estado": "movil/fr/inicio",
+   "violaciones": [],
+   "incompletas": [
+    {
+     "id": "color-contrast",
+     "n": 12
+    },
+    {
+     "id": "label-content-name-mismatch",
+     "n": 2
+    }
+   ],
+   "pasan": 42
+  },
+  {
+   "estado": "movil/fr/menu-abierto",
+   "violaciones": [],
+   "incompletas": [
+    {
+     "id": "color-contrast",
+     "n": 12
+    },
+    {
+     "id": "label-content-name-mismatch",
+     "n": 2
+    }
+   ],
+   "pasan": 42
+  },
+  {
+   "estado": "movil/fr/chat-abierto",
+   "violaciones": [],
+   "incompletas": [
+    {
+     "id": "color-contrast",
+     "n": 12
+    },
+    {
+     "id": "label-content-name-mismatch",
+     "n": 3
+    }
+   ],
+   "pasan": 47
+  }
+ ],
+ "keyboard": [
+  {
+   "viewport": "desktop",
+   "paradas": 23,
+   "sin_nombre": [],
+   "sin_foco_visible": [],
+   "enfocables_ocultos": [],
+   "primeras": [
+    [
+     "a",
+     "Saltar al contenido"
+    ],
+    [
+     "a",
+     "Villa Alicia Guest House"
+    ],
+    [
+     "a",
+     "Habitaciones"
+    ],
+    [
+     "a",
+     "Servicios"
+    ],
+    [
+     "a",
+     "Galería"
+    ],
+    [
+     "a",
+     "Ubicación"
+    ],
+    [
+     "button",
+     "ES · Español"
+    ],
+    [
+     "button",
+     "CA · Català"
+    ]
+   ],
+   "chat_abre_con_enter": true,
+   "foco_en_input": true,
+   "chat_responde_con_teclado": true,
+   "esc_cierra_chat": true,
+   "foco_vuelve_a_boton": true,
+   "idioma_con_teclado": true
+  },
+  {
+   "viewport": "movil",
+   "paradas": 20,
+   "sin_nombre": [],
+   "sin_foco_visible": [],
+   "enfocables_ocultos": [],
+   "primeras": [
+    [
+     "a",
+     "Saltar al contenido"
+    ],
+    [
+     "a",
+     "Villa Alicia Guest House"
+    ],
+    [
+     "button",
+     "ES · Español"
+    ],
+    [
+     "button",
+     "CA · Català"
+    ],
+    [
+     "button",
+     "EN · English"
+    ],
+    [
+     "button",
+     "FR · Français"
+    ],
+    [
+     "button",
+     "Menú"
+    ],
+    [
+     "a",
+     "Ver disponibilidad y precios"
+    ]
+   ],
+   "chat_abre_con_enter": true,
+   "foco_en_input": true,
+   "chat_responde_con_teclado": true,
+   "esc_cierra_chat": true,
+   "foco_vuelve_a_boton": true,
+   "idioma_con_teclado": true,
+   "menu_abre": true,
+   "menu_esc_cierra": true
+  }
+ ],
+ "fail": [],
+ "ok": true
+}

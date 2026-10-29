@@ -1,0 +1,3 @@
+entradas 12 fallos de citas/cifras 0
+knowledge.json coincide con knowledge_villa_alicia_guesthouse_malaga.py
+REGLA DE PRECIOS: CUMPLE

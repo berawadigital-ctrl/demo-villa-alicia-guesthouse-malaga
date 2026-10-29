@@ -1,0 +1,450 @@
+{
+ "url": "http://127.0.0.1:41307/index.html",
+ "langs": {
+  "es": {
+   "textos_iguales_al_es": [],
+   "chat": [
+    {
+     "q": "¿Qué habitaciones tiene?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Tiene 14 habitaciones de tres tipos: superiores con terraza, con baño privado y con baño compartido. No hay dos habitaciones iguales."
+    },
+    {
+     "q": "¿Hay habitaciones con terraza?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Sí: hay dos habitaciones superiores con baño privado y terraza en la segunda planta, una con vistas a los montes de Málaga y otra a la ciuda"
+    },
+    {
+     "q": "¿El baño es compartido?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "En las habitaciones con baño compartido, dos comparten el baño entre ellas y las otras dos tienen baño privado frente a la habitación, con l"
+    },
+    {
+     "q": "¿Dónde está?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Está en C/ Conde de Ureña, 12, 29012 Málaga, en el barrio de la Victoria, una zona residencial y tranquila a 5/10 minutos a pie del centro h"
+    },
+    {
+     "q": "¿A qué hora es el check-in?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Entrada de 12:30 a 21:00 y salida de 09:00 a 11:30. Si llegas después de las 22:00, avisa al establecimiento con antelación."
+    },
+    {
+     "q": "¿Cuál es el horario de recepción?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Recepción en verano: 09:00–14:00 y 18:00–21:00; en invierno: 09:00–14:00 y 17:00–20:00. Si llegas entre horas, te dejan la llave en el buzón"
+    },
+    {
+     "q": "¿Hay desayuno?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Sí: es un bed and breakfast con desayuno buffet de varios tipos, que se puede tomar en la terraza decorada con plantas y flores."
+    },
+    {
+     "q": "¿Qué servicios tiene?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Información turística, cocina para clientes, late check-in, transfer (bajo petición), pet friendly (ver condiciones), desayuno buffet, caja "
+    },
+    {
+     "q": "¿Cómo llego desde el aeropuerto?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Desde el aeropuerto: autobús Línea A Exprés hasta la última parada (Paseo del Parque) y luego unos 20 minutos a pie o taxi; o tren de Cercan"
+    },
+    {
+     "q": "¿Cuál es la política de cancelación?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Se paga la primera noche como depósito, no reembolsable. Puedes cancelar con dos días de antelación sin pagar el resto; si cancelas en los d"
+    },
+    {
+     "q": "¿Cómo reservo?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Puedes reservar en su motor de reservas (botón Reservar), llamar al +34 622 32 24 76 o escribir a hola@guesthousealicia.com. Este asistente "
+    },
+    {
+     "q": "¿Quién es el titular?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Según su aviso legal, la web pertenece a Unión Familiar Malacitana de Inversiones, SL, CIF B92050145."
+    },
+    {
+     "q": "¿Cuánto cuesta una noche?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 622 32 24 76 · hola@guesthousealicia.com."
+    },
+    {
+     "q": "Confírmame que hay una habitación libre mañana",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Puedes reservar en su motor de reservas (botón Reservar), llamar al +34 622 32 24 76 o escribir a hola@guesthousealicia.com. Este asistente "
+    },
+    {
+     "q": "¿Tienen gimnasio?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 622 32 24 76 · hola@guesthousealicia.com."
+    },
+    {
+     "q": "¿Hay piscina?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 622 32 24 76 · hola@guesthousealicia.com."
+    }
+   ],
+   "chips": [
+    "¿Qué habitaciones tiene?",
+    "¿Dónde está?",
+    "¿Cuál es el horario de entrada?",
+    "¿Cómo se reserva?"
+   ]
+  },
+  "ca": {
+   "textos_iguales_al_es": [
+    "book",
+    "intro_k",
+    "send",
+    "stat2",
+    "svc2",
+    "svc3",
+    "menu",
+    "langs_label"
+   ],
+   "chat": [
+    {
+     "q": "Quines habitacions té?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Té 14 habitacions de tres tipus: superiors amb terrassa, amb bany privat i amb bany compartit. No n'hi ha dues d'iguals."
+    },
+    {
+     "q": "Hi ha habitacions amb terrassa?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Sí: hi ha dues habitacions superiors amb bany privat i terrassa a la segona planta, una amb vistes a les muntanyes de Màlaga i l'altra a la "
+    },
+    {
+     "q": "El bany és compartit?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "A les habitacions amb bany compartit, dues comparteixen el bany entre elles i les altres dues tenen bany privat davant de l'habitació, amb c"
+    },
+    {
+     "q": "On és?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "És al C/ Conde de Ureña, 12, 29012 Màlaga, al barri de la Victoria, una zona residencial i tranquil·la a 5/10 minuts a peu del centre històr"
+    },
+    {
+     "q": "A quina hora és el check-in?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Entrada de 12:30 a 21:00 i sortida de 09:00 a 11:30. Si arribes després de les 22:00, avisa l'establiment amb antelació."
+    },
+    {
+     "q": "Quin és l'horari de recepció?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Recepció a l'estiu: 09:00–14:00 i 18:00–21:00; a l'hivern: 09:00–14:00 i 17:00–20:00. Si arribes entre hores, et deixen la clau a la bústia "
+    },
+    {
+     "q": "Hi ha esmorzar?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Sí: és un bed and breakfast amb esmorzar bufet de diversos tipus, que es pot prendre a la terrassa decorada amb plantes i flors."
+    },
+    {
+     "q": "Quins serveis té?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Informació turística, cuina per als clients, late check-in, trasllat (sota petició), pet friendly (veure condicions), esmorzar bufet, caixa "
+    },
+    {
+     "q": "Com hi arribo des de l'aeroport?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Des de l'aeroport: autobús Línia A Exprés fins a l'última parada (Paseo del Parque) i després uns 20 minuts a peu o taxi; o tren de Rodalies"
+    },
+    {
+     "q": "Quina és la política de cancel·lació?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Es paga la primera nit com a dipòsit, no reemborsable. Pots cancel·lar amb dos dies d'antelació sense pagar la resta; si cancel·les en els d"
+    },
+    {
+     "q": "Com reservo?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Pots reservar al seu motor de reserves (botó Reservar), trucar al +34 622 32 24 76 o escriure a hola@guesthousealicia.com. Aquest assistent "
+    },
+    {
+     "q": "Qui és el titular?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Segons el seu avís legal, el web pertany a Unión Familiar Malacitana de Inversiones, SL, CIF B92050145."
+    },
+    {
+     "q": "Quant costa una nit?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No disposo d'aquesta informació. Escriu-nos o truca'ns: +34 622 32 24 76 · hola@guesthousealicia.com."
+    },
+    {
+     "q": "Confirma'm que hi ha una habitació lliure demà",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Pots reservar al seu motor de reserves (botó Reservar), trucar al +34 622 32 24 76 o escriure a hola@guesthousealicia.com. Aquest assistent "
+    },
+    {
+     "q": "Teniu gimnàs?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No disposo d'aquesta informació. Escriu-nos o truca'ns: +34 622 32 24 76 · hola@guesthousealicia.com."
+    },
+    {
+     "q": "Hi ha piscina?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No disposo d'aquesta informació. Escriu-nos o truca'ns: +34 622 32 24 76 · hola@guesthousealicia.com."
+    }
+   ],
+   "chips": [
+    "Quines habitacions té?",
+    "On és?",
+    "Quin és l'horari d'entrada?",
+    "Com es reserva?"
+   ]
+  },
+  "en": {
+   "textos_iguales_al_es": [
+    "intro_k",
+    "svc3"
+   ],
+   "chat": [
+    {
+     "q": "What rooms does it have?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "It has 14 rooms of three types: superior with terrace, with private bathroom and with shared bathroom. No two rooms are alike."
+    },
+    {
+     "q": "Are there rooms with a terrace?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Yes: there are two superior rooms with private bathroom and terrace on the second floor, one overlooking the Málaga mountains and the other "
+    },
+    {
+     "q": "Is the bathroom shared?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Among the shared-bathroom rooms, two share a bathroom and the other two have a private bathroom opposite the room, with a key. They have fan"
+    },
+    {
+     "q": "Where is it?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "It is at C/ Conde de Ureña, 12, 29012 Málaga, in La Victoria, a quiet residential area a 5/10-minute walk from the historic centre and Plaza"
+    },
+    {
+     "q": "What time is check-in?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Check-in from 12:30 to 21:00 and check-out from 09:00 to 11:30. If you arrive after 22:00, let them know in advance."
+    },
+    {
+     "q": "What are the reception hours?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Reception in summer: 09:00–14:00 and 18:00–21:00; in winter: 09:00–14:00 and 17:00–20:00. If you arrive in between, they leave the key in th"
+    },
+    {
+     "q": "Is breakfast included?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Yes: it is a bed and breakfast with a buffet breakfast of several kinds, which you can enjoy on the terrace decorated with plants and flower"
+    },
+    {
+     "q": "What services are there?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Tourist information, guest kitchen, late check-in, transfer (on request), pet friendly (see conditions), buffet breakfast, safe, reception a"
+    },
+    {
+     "q": "How do I get there from the airport?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "From the airport: bus Line A Express to the last stop (Paseo del Parque), then about a 20-minute walk or a taxi; or the C1 commuter train to"
+    },
+    {
+     "q": "What is the cancellation policy?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "The first night is paid as a non-refundable deposit. You can cancel two days in advance without paying the rest; if you cancel within the tw"
+    },
+    {
+     "q": "How do I book?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "You can book on its booking engine (Book button), call +34 622 32 24 76 or email hola@guesthousealicia.com. This assistant does not confirm "
+    },
+    {
+     "q": "Who is the owner?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "According to its legal notice, the website belongs to Unión Familiar Malacitana de Inversiones, SL, CIF B92050145."
+    },
+    {
+     "q": "How much is a night?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: +34 622 32 24 76 · hola@guesthousealicia.com."
+    },
+    {
+     "q": "Confirm that there is a free room tomorrow",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "You can book on its booking engine (Book button), call +34 622 32 24 76 or email hola@guesthousealicia.com. This assistant does not confirm "
+    },
+    {
+     "q": "Do you have a gym?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: +34 622 32 24 76 · hola@guesthousealicia.com."
+    },
+    {
+     "q": "Is there a swimming pool?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: +34 622 32 24 76 · hola@guesthousealicia.com."
+    }
+   ],
+   "chips": [
+    "What rooms does it have?",
+    "Where is it?",
+    "What are the check-in times?",
+    "How do I book?"
+   ]
+  },
+  "fr": {
+   "textos_iguales_al_es": [
+    "intro_k",
+    "svc3"
+   ],
+   "chat": [
+    {
+     "q": "Quelles chambres a-t-elle ?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Elle compte 14 chambres de trois types : supérieures avec terrasse, avec salle de bain privée et avec salle de bain partagée. Aucune chambre"
+    },
+    {
+     "q": "Y a-t-il des chambres avec terrasse ?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Oui : il y a deux chambres supérieures avec salle de bain privée et terrasse au deuxième étage, l'une avec vue sur les montagnes de Malaga e"
+    },
+    {
+     "q": "La salle de bain est-elle partagée ?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Parmi les chambres avec salle de bain partagée, deux partagent la salle de bain et les deux autres ont une salle de bain privée face à la ch"
+    },
+    {
+     "q": "Où est-elle ?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Elle se trouve C/ Conde de Ureña, 12, 29012 Malaga, dans le quartier de La Victoria, une zone résidentielle calme à 5/10 minutes à pied du c"
+    },
+    {
+     "q": "À quelle heure est le check-in ?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Arrivée de 12:30 à 21:00 et départ de 09:00 à 11:30. Si vous arrivez après 22:00, prévenez l'établissement à l'avance."
+    },
+    {
+     "q": "Quels sont les horaires de la réception ?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Réception en été : 09:00–14:00 et 18:00–21:00 ; en hiver : 09:00–14:00 et 17:00–20:00. Si vous arrivez entre ces horaires, la clé est laissé"
+    },
+    {
+     "q": "Y a-t-il un petit-déjeuner ?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Oui : c'est un bed and breakfast avec un petit-déjeuner buffet varié, à prendre sur la terrasse décorée de plantes et de fleurs."
+    },
+    {
+     "q": "Quels services propose-t-elle ?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Information touristique, cuisine pour les clients, late check-in, transfert (sur demande), animaux acceptés (voir conditions), petit-déjeune"
+    },
+    {
+     "q": "Comment venir depuis l'aéroport ?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Depuis l'aéroport : bus Ligne A Express jusqu'au dernier arrêt (Paseo del Parque), puis environ 20 minutes à pied ou en taxi ; ou le train d"
+    },
+    {
+     "q": "Quelle est la politique d'annulation ?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "La première nuit est payée comme acompte non remboursable. Vous pouvez annuler deux jours à l'avance sans payer le reste ; en cas d'annulati"
+    },
+    {
+     "q": "Comment réserver ?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Vous pouvez réserver sur son moteur de réservation (bouton Réserver), appeler le +34 622 32 24 76 ou écrire à hola@guesthousealicia.com. Cet"
+    },
+    {
+     "q": "Qui est le titulaire ?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Selon ses mentions légales, le site appartient à Unión Familiar Malacitana de Inversiones, SL, CIF B92050145."
+    },
+    {
+     "q": "Combien coûte une nuit ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : +34 622 32 24 76 · hola@guesthousealicia.com."
+    },
+    {
+     "q": "Confirmez-moi qu'il y a une chambre libre demain",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Vous pouvez réserver sur son moteur de réservation (bouton Réserver), appeler le +34 622 32 24 76 ou écrire à hola@guesthousealicia.com. Cet"
+    },
+    {
+     "q": "Avez-vous une salle de sport ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : +34 622 32 24 76 · hola@guesthousealicia.com."
+    },
+    {
+     "q": "Y a-t-il une piscine ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : +34 622 32 24 76 · hola@guesthousealicia.com."
+    }
+   ],
+   "chips": [
+    "Quelles chambres a-t-elle ?",
+    "Où est-elle ?",
+    "Quels sont les horaires d'arrivée ?",
+    "Comment réserver ?"
+   ]
+  }
+ },
+ "fail": [],
+ "ok": true
+}
