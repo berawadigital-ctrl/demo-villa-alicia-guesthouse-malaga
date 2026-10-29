@@ -1,0 +1,57 @@
+{
+ "schema": "berawa-sources/1",
+ "site": "https://guesthousealicia.com/",
+ "read_at": "2026-10-29T13:05:00+01:00",
+ "method": "Texto visible de cada pagina leido de la web publica del negocio en la fecha indicada (fetch_sources.py) y guardado en berawa/evidence/source-text.json; las citas del chatbot se comprueban contra ese texto con check_kb.py.",
+ "pages": [
+  {
+   "url": "https://guesthousealicia.com/",
+   "sha256": "4dc0d84d69b97365ffe89303932054f93d57952431e7e1e3b4cea47bbdeb3798",
+   "chars": 10243
+  },
+  {
+   "url": "https://guesthousealicia.com/aviso-legal/",
+   "sha256": "2a392a99a2ede35131d5613def08d229d993d8451daa3624b5d9b8d12a961a97",
+   "chars": 7322
+  },
+  {
+   "url": "https://guesthousealicia.com/contacto/",
+   "sha256": "617d579a1e6591ca9dec5de680bdecf92085b2a4e5656dcc14ca6a8c5e7b2c4d",
+   "chars": 5922
+  },
+  {
+   "url": "https://guesthousealicia.com/habitaciones/",
+   "sha256": "2dd64ffec2be0da6ef221027ecb55bda1789aaa2897634b03ddb1611c451d1ef",
+   "chars": 7950
+  },
+  {
+   "url": "https://guesthousealicia.com/habitaciones/habitaciones-con-bano-compartido/",
+   "sha256": "f4446031c8e6be671ab733e640d1d8dbeb50c1a8b55fb7222cf1440a33abe38a",
+   "chars": 6355
+  },
+  {
+   "url": "https://guesthousealicia.com/habitaciones/habitaciones-superiores-con-terraza/",
+   "sha256": "7f33a8126e18a535e1944b5908de7828f7205329eb8e2c5233bec2219559934d",
+   "chars": 5447
+  },
+  {
+   "url": "https://guesthousealicia.com/villa-alicia/",
+   "sha256": "a4b21ca4ed63db6ab91f7ea83b4e2ef8e5b73d3d5e1d61095c7b1c7da2e9344b",
+   "chars": 7352
+  }
+ ],
+ "other_pages_read": [
+  "https://guesthousealicia.com/blog/",
+  "https://guesthousealicia.com/en/",
+  "https://guesthousealicia.com/en/contact/",
+  "https://guesthousealicia.com/en/rooms/",
+  "https://guesthousealicia.com/en/rooms/hotel-rooms-superior-with-terrace/",
+  "https://guesthousealicia.com/en/rooms/hotel-rooms-with-private-bathroom/",
+  "https://guesthousealicia.com/en/rooms/hotel-rooms-with-shared-bathroom/",
+  "https://guesthousealicia.com/galeria/",
+  "https://guesthousealicia.com/habitaciones/habitaciones-con-bano-privado/",
+  "https://guesthousealicia.com/politica-de-cookies/",
+  "https://guesthousealicia.com/politica-de-privacidad/",
+  "https://guesthousealicia.com/turismo-en-malaga/"
+ ]
+}
