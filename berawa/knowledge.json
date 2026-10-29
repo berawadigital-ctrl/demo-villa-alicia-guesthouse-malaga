@@ -1,0 +1,532 @@
+{
+ "schema": "berawa-knowledge/1",
+ "project": "demo-villa-alicia-guesthouse-malaga",
+ "source_site": "https://guesthousealicia.com/",
+ "source_read_at": "2026-10-29T13:05:00+01:00",
+ "note": "Respuestas solo con datos publicados en guesthousealicia.com. Sin coincidencia: el asistente dice que no dispone de la informacion y ofrece contacto.",
+ "entries": [
+  {
+   "id": "K01",
+   "topic": "habitaciones",
+   "keys": {
+    "es": [
+     "que habitaciones",
+     "tipos de habitacion"
+    ],
+    "ca": [
+     "quines habitacions",
+     "tipus d habitacio"
+    ],
+    "en": [
+     "what rooms",
+     "room types"
+    ],
+    "fr": [
+     "quelles chambres",
+     "types de chambre"
+    ]
+   },
+   "a": {
+    "es": "Tiene 14 habitaciones de tres tipos: superiores con terraza, con baño privado y con baño compartido. No hay dos habitaciones iguales.",
+    "ca": "Té 14 habitacions de tres tipus: superiors amb terrassa, amb bany privat i amb bany compartit. No n'hi ha dues d'iguals.",
+    "en": "It has 14 rooms of three types: superior with terrace, with private bathroom and with shared bathroom. No two rooms are alike.",
+    "fr": "Elle compte 14 chambres de trois types : supérieures avec terrasse, avec salle de bain privée et avec salle de bain partagée. Aucune chambre n'est identique."
+   },
+   "sources": [
+    {
+     "url": "https://guesthousealicia.com/villa-alicia/",
+     "quote": "Con un total de 14 habitaciones"
+    },
+    {
+     "url": "https://guesthousealicia.com/habitaciones/",
+     "quote": "Tenemos tres tipos de habitaciones de hotel en Málaga : habitaciones superiores con terraza, habitaciones con baño privado y habitaciones con baño compartido."
+    },
+    {
+     "url": "https://guesthousealicia.com/habitaciones/",
+     "quote": "No encontrarás dos habitaciones iguales"
+    }
+   ],
+   "cta": false
+  },
+  {
+   "id": "K02",
+   "topic": "terraza",
+   "keys": {
+    "es": [
+     "terraza"
+    ],
+    "ca": [
+     "terrassa"
+    ],
+    "en": [
+     "terrace"
+    ],
+    "fr": [
+     "terrasse"
+    ]
+   },
+   "a": {
+    "es": "Sí: hay dos habitaciones superiores con baño privado y terraza en la segunda planta, una con vistas a los montes de Málaga y otra a la ciudad. Tienen cama doble, aire acondicionado frío y calor, minibar, TV por cable y hervidor con té y café.",
+    "ca": "Sí: hi ha dues habitacions superiors amb bany privat i terrassa a la segona planta, una amb vistes a les muntanyes de Màlaga i l'altra a la ciutat. Tenen llit doble, aire condicionat fred i calor, minibar, TV per cable i bullidor amb te i cafè.",
+    "en": "Yes: there are two superior rooms with private bathroom and terrace on the second floor, one overlooking the Málaga mountains and the other the city. They have a double bed, heating and air conditioning, minibar, cable TV and a kettle with tea and coffee.",
+    "fr": "Oui : il y a deux chambres supérieures avec salle de bain privée et terrasse au deuxième étage, l'une avec vue sur les montagnes de Malaga et l'autre sur la ville. Elles ont un lit double, la climatisation chaud et froid, un minibar, la TV par câble et une bouilloire avec thé et café."
+   },
+   "sources": [
+    {
+     "url": "https://guesthousealicia.com/habitaciones/habitaciones-superiores-con-terraza/",
+     "quote": "Villa Alicia cuenta con dos habitaciones con baño privado y terraza."
+    },
+    {
+     "url": "https://guesthousealicia.com/habitaciones/habitaciones-superiores-con-terraza/",
+     "quote": "Una de ellas con orientación noreste y vistas a los montes de Málaga y otra con orientación noroeste con vista a la ciudad."
+    },
+    {
+     "url": "https://guesthousealicia.com/habitaciones/habitaciones-superiores-con-terraza/",
+     "quote": "Disponen de cama doble, aire acondicionado frío y calor, mini bar, TV por cable, kettle con té/café soluble y agua de cortesía."
+    }
+   ],
+   "cta": false
+  },
+  {
+   "id": "K03",
+   "topic": "baño compartido",
+   "keys": {
+    "es": [
+     "bano",
+     "compartid"
+    ],
+    "ca": [
+     "bany",
+     "compartit"
+    ],
+    "en": [
+     "bathroom",
+     "shared"
+    ],
+    "fr": [
+     "salle de bain",
+     "partagee"
+    ]
+   },
+   "a": {
+    "es": "En las habitaciones con baño compartido, dos comparten el baño entre ellas y las otras dos tienen baño privado frente a la habitación, con llave. Tienen ventiladores y calefactores; el aire acondicionado no está en las de baño compartido.",
+    "ca": "A les habitacions amb bany compartit, dues comparteixen el bany entre elles i les altres dues tenen bany privat davant de l'habitació, amb clau. Tenen ventiladors i calefactors; l'aire condicionat no hi és a les de bany compartit.",
+    "en": "Among the shared-bathroom rooms, two share a bathroom and the other two have a private bathroom opposite the room, with a key. They have fans and heaters; air conditioning is not available in the shared-bathroom rooms.",
+    "fr": "Parmi les chambres avec salle de bain partagée, deux partagent la salle de bain et les deux autres ont une salle de bain privée face à la chambre, fermée à clé. Elles ont ventilateurs et radiateurs ; la climatisation n'est pas disponible dans les chambres à salle de bain partagée."
+   },
+   "sources": [
+    {
+     "url": "https://guesthousealicia.com/habitaciones/habitaciones-con-bano-compartido/",
+     "quote": "Dos de nuestras habitaciones comparten el baño entre ellas"
+    },
+    {
+     "url": "https://guesthousealicia.com/habitaciones/habitaciones-con-bano-compartido/",
+     "quote": "cada baño privado está convenientemente ubicado frente a la habitación y cuenta con llave"
+    },
+    {
+     "url": "https://guesthousealicia.com/habitaciones/habitaciones-con-bano-compartido/",
+     "quote": "equipadas con ventiladores y calefactores"
+    },
+    {
+     "url": "https://guesthousealicia.com/",
+     "quote": "AIRE ACONDICIONADO (Menos en habitación de baño compartido)"
+    }
+   ],
+   "cta": false
+  },
+  {
+   "id": "K04",
+   "topic": "ubicación",
+   "keys": {
+    "es": [
+     "donde esta",
+     "direccion",
+     "ubicacion",
+     "donde estais"
+    ],
+    "ca": [
+     " on ",
+     "adreca",
+     "ubicacio"
+    ],
+    "en": [
+     "where is",
+     "address",
+     "location"
+    ],
+    "fr": [
+     "ou est",
+     "adresse",
+     "situe"
+    ]
+   },
+   "a": {
+    "es": "Está en C/ Conde de Ureña, 12, 29012 Málaga, en el barrio de la Victoria, una zona residencial y tranquila a 5/10 minutos a pie del centro histórico y la plaza de la Merced.",
+    "ca": "És al C/ Conde de Ureña, 12, 29012 Màlaga, al barri de la Victoria, una zona residencial i tranquil·la a 5/10 minuts a peu del centre històric i la plaça de la Merced.",
+    "en": "It is at C/ Conde de Ureña, 12, 29012 Málaga, in La Victoria, a quiet residential area a 5/10-minute walk from the historic centre and Plaza de la Merced.",
+    "fr": "Elle se trouve C/ Conde de Ureña, 12, 29012 Malaga, dans le quartier de La Victoria, une zone résidentielle calme à 5/10 minutes à pied du centre historique et de la plaza de la Merced."
+   },
+   "sources": [
+    {
+     "url": "https://guesthousealicia.com/aviso-legal/",
+     "quote": "CALLE CONDE DE UREÑA 12 29012 MALAGA"
+    },
+    {
+     "url": "https://guesthousealicia.com/",
+     "quote": "Situado en el popular barrio de la Victoria, el hotel guest house en Málaga se encuentra en una zona residencial y tranquila a tan solo 5/10 min a pie del centro histórico y la plaza de la merced."
+    }
+   ],
+   "cta": false
+  },
+  {
+   "id": "K05",
+   "topic": "entrada y salida",
+   "keys": {
+    "es": [
+     "check",
+     "entrada",
+     "salida",
+     "a que hora llego"
+    ],
+    "ca": [
+     "check",
+     "entrada",
+     "sortida"
+    ],
+    "en": [
+     "check",
+     "arrival time",
+     "departure"
+    ],
+    "fr": [
+     "check",
+     "arrivee",
+     "depart"
+    ]
+   },
+   "a": {
+    "es": "Entrada de 12:30 a 21:00 y salida de 09:00 a 11:30. Si llegas después de las 22:00, avisa al establecimiento con antelación.",
+    "ca": "Entrada de 12:30 a 21:00 i sortida de 09:00 a 11:30. Si arribes després de les 22:00, avisa l'establiment amb antelació.",
+    "en": "Check-in from 12:30 to 21:00 and check-out from 09:00 to 11:30. If you arrive after 22:00, let them know in advance.",
+    "fr": "Arrivée de 12:30 à 21:00 et départ de 09:00 à 11:30. Si vous arrivez après 22:00, prévenez l'établissement à l'avance."
+   },
+   "sources": [
+    {
+     "url": "https://guesthousealicia.com/contacto/",
+     "quote": "Entrada: De 12:30 a las 21:00 Salida: De 09:00 a las 11:30"
+    },
+    {
+     "url": "https://guesthousealicia.com/contacto/",
+     "quote": "Los huéspedes que tengan previsto llegar después de las 22:00 deberán comunicarlo al establecimiento con antelación."
+    }
+   ],
+   "cta": false
+  },
+  {
+   "id": "K06",
+   "topic": "recepción",
+   "keys": {
+    "es": [
+     "recepcion"
+    ],
+    "ca": [
+     "recepcio"
+    ],
+    "en": [
+     "reception"
+    ],
+    "fr": [
+     "reception"
+    ]
+   },
+   "a": {
+    "es": "Recepción en verano: 09:00–14:00 y 18:00–21:00; en invierno: 09:00–14:00 y 17:00–20:00. Si llegas entre horas, te dejan la llave en el buzón de recepción.",
+    "ca": "Recepció a l'estiu: 09:00–14:00 i 18:00–21:00; a l'hivern: 09:00–14:00 i 17:00–20:00. Si arribes entre hores, et deixen la clau a la bústia de recepció.",
+    "en": "Reception in summer: 09:00–14:00 and 18:00–21:00; in winter: 09:00–14:00 and 17:00–20:00. If you arrive in between, they leave the key in the reception mailbox.",
+    "fr": "Réception en été : 09:00–14:00 et 18:00–21:00 ; en hiver : 09:00–14:00 et 17:00–20:00. Si vous arrivez entre ces horaires, la clé est laissée dans la boîte aux lettres de la réception."
+   },
+   "sources": [
+    {
+     "url": "https://guesthousealicia.com/habitaciones/",
+     "quote": "Verano: 09:00 – 14:00h y 18:00 a 21:00h Invierno: 09:00 – 14:00h y 17:00 a 20:00h"
+    },
+    {
+     "url": "https://guesthousealicia.com/habitaciones/",
+     "quote": "Si vienes entre horas, te dejamos la llave en el buzón de recepción."
+    }
+   ],
+   "cta": false
+  },
+  {
+   "id": "K07",
+   "topic": "desayuno",
+   "keys": {
+    "es": [
+     "desayun"
+    ],
+    "ca": [
+     "esmorz"
+    ],
+    "en": [
+     "breakfast"
+    ],
+    "fr": [
+     "petit dejeuner",
+     "petit-dejeuner"
+    ]
+   },
+   "a": {
+    "es": "Sí: es un bed and breakfast con desayuno buffet de varios tipos, que se puede tomar en la terraza decorada con plantas y flores.",
+    "ca": "Sí: és un bed and breakfast amb esmorzar bufet de diversos tipus, que es pot prendre a la terrassa decorada amb plantes i flors.",
+    "en": "Yes: it is a bed and breakfast with a buffet breakfast of several kinds, which you can enjoy on the terrace decorated with plants and flowers.",
+    "fr": "Oui : c'est un bed and breakfast avec un petit-déjeuner buffet varié, à prendre sur la terrasse décorée de plantes et de fleurs."
+   },
+   "sources": [
+    {
+     "url": "https://guesthousealicia.com/habitaciones/habitaciones-superiores-con-terraza/",
+     "quote": "Desayuno buffet de varios tipos"
+    },
+    {
+     "url": "https://guesthousealicia.com/",
+     "quote": "dispone de una bonita terraza bellamente decorada con plantas y flores para disfrutar en el desayuno"
+    }
+   ],
+   "cta": false
+  },
+  {
+   "id": "K08",
+   "topic": "servicios",
+   "keys": {
+    "es": [
+     "servicios",
+     "mascota",
+     "perro",
+     "wifi",
+     "cocina"
+    ],
+    "ca": [
+     "serveis",
+     "mascota",
+     "gos",
+     "wifi",
+     "cuina"
+    ],
+    "en": [
+     "services",
+     "pet",
+     "dog",
+     "wifi",
+     "kitchen"
+    ],
+    "fr": [
+     "services",
+     "animaux",
+     "chien",
+     "wifi",
+     "cuisine"
+    ]
+   },
+   "a": {
+    "es": "Información turística, cocina para clientes, late check-in, transfer (bajo petición), pet friendly (ver condiciones), desayuno buffet, caja fuerte, recepción y wifi gratis.",
+    "ca": "Informació turística, cuina per als clients, late check-in, trasllat (sota petició), pet friendly (veure condicions), esmorzar bufet, caixa forta, recepció i wifi gratis.",
+    "en": "Tourist information, guest kitchen, late check-in, transfer (on request), pet friendly (see conditions), buffet breakfast, safe, reception and free wifi.",
+    "fr": "Information touristique, cuisine pour les clients, late check-in, transfert (sur demande), animaux acceptés (voir conditions), petit-déjeuner buffet, coffre-fort, réception et wifi gratuit."
+   },
+   "sources": [
+    {
+     "url": "https://guesthousealicia.com/habitaciones/habitaciones-superiores-con-terraza/",
+     "quote": "Información turística Cocina para clientes Late check-in Transfer (Solicitar precios) Pet Friendly (ver condiciones) Desayuno buffet de varios tipos Caja fuerte Recepción WIFI gratis"
+    }
+   ],
+   "cta": false
+  },
+  {
+   "id": "K09",
+   "topic": "cómo llegar",
+   "keys": {
+    "es": [
+     "aeropuerto",
+     "como llego",
+     "estacion de tren"
+    ],
+    "ca": [
+     "aeroport",
+     "com hi arribo",
+     "estacio de tren"
+    ],
+    "en": [
+     "airport",
+     "get there",
+     "train station"
+    ],
+    "fr": [
+     "aeroport",
+     "comment venir",
+     "gare"
+    ]
+   },
+   "a": {
+    "es": "Desde el aeropuerto: autobús Línea A Exprés hasta la última parada (Paseo del Parque) y luego unos 20 minutos a pie o taxi; o tren de Cercanías C1 hasta el centro y unos 22 minutos andando. También pueden reservarte un taxi.",
+    "ca": "Des de l'aeroport: autobús Línia A Exprés fins a l'última parada (Paseo del Parque) i després uns 20 minuts a peu o taxi; o tren de Rodalies C1 fins al centre i uns 22 minuts a peu. També et poden reservar un taxi.",
+    "en": "From the airport: bus Line A Express to the last stop (Paseo del Parque), then about a 20-minute walk or a taxi; or the C1 commuter train to the centre and about a 22-minute walk. They can also book a taxi for you.",
+    "fr": "Depuis l'aéroport : bus Ligne A Express jusqu'au dernier arrêt (Paseo del Parque), puis environ 20 minutes à pied ou en taxi ; ou le train de banlieue C1 jusqu'au centre et environ 22 minutes à pied. Ils peuvent aussi vous réserver un taxi."
+   },
+   "sources": [
+    {
+     "url": "https://guesthousealicia.com/contacto/",
+     "quote": "Autobús Línea A Expres Aeropuerto"
+    },
+    {
+     "url": "https://guesthousealicia.com/contacto/",
+     "quote": "Tendrá que parar en la último parada ( Paseo del parque) Una vez allí puede caminar hasta Villa Alicia (20 minutos a pie)"
+    },
+    {
+     "url": "https://guesthousealicia.com/contacto/",
+     "quote": "Línea Renfe de Cercanías C1."
+    },
+    {
+     "url": "https://guesthousealicia.com/contacto/",
+     "quote": "22 minutos andando"
+    },
+    {
+     "url": "https://guesthousealicia.com/contacto/",
+     "quote": "Puede contactar con nosotros y reservaremos uno para usted."
+    }
+   ],
+   "cta": false
+  },
+  {
+   "id": "K10",
+   "topic": "cancelación",
+   "keys": {
+    "es": [
+     "cancel",
+     "deposito"
+    ],
+    "ca": [
+     "cancel",
+     "diposit"
+    ],
+    "en": [
+     "cancel",
+     "deposit"
+    ],
+    "fr": [
+     "annul",
+     "acompte"
+    ]
+   },
+   "a": {
+    "es": "Se paga la primera noche como depósito, no reembolsable. Puedes cancelar con dos días de antelación sin pagar el resto; si cancelas en los dos días previos se cobra la reserva completa.",
+    "ca": "Es paga la primera nit com a dipòsit, no reemborsable. Pots cancel·lar amb dos dies d'antelació sense pagar la resta; si cancel·les en els dos dies previs es cobra la reserva completa.",
+    "en": "The first night is paid as a non-refundable deposit. You can cancel two days in advance without paying the rest; if you cancel within the two days before, the full booking is charged.",
+    "fr": "La première nuit est payée comme acompte non remboursable. Vous pouvez annuler deux jours à l'avance sans payer le reste ; en cas d'annulation dans les deux jours précédents, la réservation complète est facturée."
+   },
+   "sources": [
+    {
+     "url": "https://guesthousealicia.com/contacto/",
+     "quote": "El cliente tendrá que abonar la primera noche como depósito de la reserva. Éste no es reembolsable bajo ningún concepto."
+    },
+    {
+     "url": "https://guesthousealicia.com/contacto/",
+     "quote": "Puede cancelar la reserva con dos días de antelación y no abonar el resto de la reserva."
+    },
+    {
+     "url": "https://guesthousealicia.com/contacto/",
+     "quote": "Si el cliente cancela durante los dos días antes de la reserva, procederemos el cobro completo de la reserva."
+    }
+   ],
+   "cta": false
+  },
+  {
+   "id": "K11",
+   "topic": "reservar",
+   "keys": {
+    "es": [
+     "reserv",
+     "disponib",
+     "libre",
+     "confirm"
+    ],
+    "ca": [
+     "reserv",
+     "disponib",
+     "lliure",
+     "confirma"
+    ],
+    "en": [
+     "book",
+     "reserv",
+     "availab",
+     "free room",
+     "confirm"
+    ],
+    "fr": [
+     "reserv",
+     "disponib",
+     "libre",
+     "confirm"
+    ]
+   },
+   "a": {
+    "es": "Puedes reservar en su motor de reservas (botón Reservar), llamar al +34 622 32 24 76 o escribir a hola@guesthousealicia.com. Este asistente no confirma disponibilidad ni reservas.",
+    "ca": "Pots reservar al seu motor de reserves (botó Reservar), trucar al +34 622 32 24 76 o escriure a hola@guesthousealicia.com. Aquest assistent no confirma disponibilitat ni reserves.",
+    "en": "You can book on its booking engine (Book button), call +34 622 32 24 76 or email hola@guesthousealicia.com. This assistant does not confirm availability or bookings.",
+    "fr": "Vous pouvez réserver sur son moteur de réservation (bouton Réserver), appeler le +34 622 32 24 76 ou écrire à hola@guesthousealicia.com. Cet assistant ne confirme ni disponibilités ni réservations."
+   },
+   "sources": [
+    {
+     "url": "https://guesthousealicia.com/contacto/",
+     "quote": "Llámanos +34622322476 (+34) 622 32 24 76"
+    },
+    {
+     "url": "https://guesthousealicia.com/contacto/",
+     "quote": "Email hola@guesthousealicia.com"
+    }
+   ],
+   "cta": true
+  },
+  {
+   "id": "K12",
+   "topic": "titular",
+   "keys": {
+    "es": [
+     "titular",
+     "propietario",
+     "razon social",
+     "cif"
+    ],
+    "ca": [
+     "titular",
+     "propietari",
+     "rao social",
+     "cif"
+    ],
+    "en": [
+     "owner",
+     "legal name",
+     "cif"
+    ],
+    "fr": [
+     "titulaire",
+     "proprietaire",
+     "raison sociale",
+     "cif"
+    ]
+   },
+   "a": {
+    "es": "Según su aviso legal, la web pertenece a Unión Familiar Malacitana de Inversiones, SL, CIF B92050145.",
+    "ca": "Segons el seu avís legal, el web pertany a Unión Familiar Malacitana de Inversiones, SL, CIF B92050145.",
+    "en": "According to its legal notice, the website belongs to Unión Familiar Malacitana de Inversiones, SL, CIF B92050145.",
+    "fr": "Selon ses mentions légales, le site appartient à Unión Familiar Malacitana de Inversiones, SL, CIF B92050145."
+   },
+   "sources": [
+    {
+     "url": "https://guesthousealicia.com/aviso-legal/",
+     "quote": "1. Entidad UNION FAMILIAR MALACITANA DE INVERSIONES, SL CIF: B92050145"
+    }
+   ],
+   "cta": false
+  }
+ ]
+}
