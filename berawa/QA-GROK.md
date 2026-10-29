@@ -2,7 +2,7 @@
 
 Autocontrol de fabricación (G04, A1–A11) y checklist C01–C16 (`docs/BERAWA-QA-CHECKLIST.md`) pasados por Grok antes del PR. **No es una auditoría independiente ni una aprobación**: Codex solo audita una muestra y nada se publica ni se envía sin visto bueno de Juan.
 
-- Rama: `demo/villa-alicia-guesthouse-malaga` · HEAD de las pruebas: `64e14be9d209aedf4848f9c0dca194a1f826a23b` · fecha: 29/10/2026 12:57 (Europe/Madrid)
+- Rama: `demo/villa-alicia-guesthouse-malaga` · HEAD de las pruebas: `8e998b9a010cf13e35690a00e64f3dc7ce453cb6` · fecha: 29/10/2026 15:05 (Europe/Madrid)
 - Entorno: Chromium de Playwright (instalado por `playwright install chromium` en el clon limpio), axe-core 4.14.0, Lighthouse 13.6.0 (3 pasadas, mediana).
 - Resultado: **QA_GROK_PASS**
 - Negocio medido: Maps 4.3 (LEIDA, coincide tel, web) · web original: LCP > 4 s · titular Unión Familiar Malacitana de Inversiones, S.L. (persona jurídica, sin cadena).
@@ -25,7 +25,7 @@ Autocontrol de fabricación (G04, A1–A11) y checklist C01–C16 (`docs/BERAWA-
 ## Checklist C01–C16
 | Código | Control | Resultado | Evidencia |
 |---|---|---|---|
-| C01 | Repositorio y SHA | **CUMPLE** | HEAD del clon limpio = 64e14be9d209aedf4848f9c0dca194a1f826a23b (el SHA final del PR es el del commit que añade este informe) |
+| C01 | Repositorio y SHA | **CUMPLE** | HEAD del clon limpio = 8e998b9a010cf13e35690a00e64f3dc7ce453cb6 (el SHA final del PR es el del commit que añade este informe) |
 | C02 | Identidad y fuentes | **CUMPLE** | nombre, teléfono, dirección y datos comerciales con cita literal en berawa/knowledge.json; titular persona jurídica sin cadena y nota de Maps en berawa/evidence/captacion.json |
 | C03 | Licencias | **CUMPLE** | asset_manifest.json: ilustraciones propias generadas (origin=generated) y fuente Cormorant OFL; ninguna imagen, logo ni vídeo del negocio |
 | C04 | Diseño personalizado y no suplantador | **CUMPLE** | paleta e ilustraciones propias, aviso «Propuesta de rediseño independiente, no oficial» arriba y en el pie, sin logo ni marca del negocio; revisión visual de qa/capturas/ |
@@ -53,4 +53,4 @@ SEO < 90 por el `noindex,nofollow` y el `robots.txt` con `Disallow: /` (is-crawl
 ## Límites
 - No probado en Safari ni Firefox ni con lector de pantalla.
 - Las imágenes son ilustraciones propias: no muestran el establecimiento y así se rotulan.
-- Tiempo del autocontrol automático (ZIP, clon limpio, Lighthouse, capturas): 8.2 min.
+- Tiempo del autocontrol automático (ZIP, clon limpio, Lighthouse, capturas): 7.7 min.
