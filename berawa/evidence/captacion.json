@@ -1,0 +1,31 @@
+{
+ "schema": "berawa-captacion/1",
+ "negocio": "villa-alicia-guesthouse-malaga",
+ "maps": {
+  "fecha": "2026-10-29T10:23:18+01:00",
+  "estado": "LEIDA",
+  "ficha": "Villa Alicia Guest House",
+  "nota": 4.3,
+  "coincide": {
+   "tel": true,
+   "web": true,
+   "dir": false
+  },
+  "url": "https://www.google.com/maps/place/Villa+Alicia+Guest+House/@36.7290855,-4.411174,17z/data=!4m9!3m8!1s0xd72f794cc2c81b7:0x401d511137130bdc!5m2!4m1!1i2!8m2!3d36.7290855!4d-4.411174!16s%2Fg%2F1tfd_62l",
+  "herramienta": "factory/webfactory/maps_rating.py"
+ },
+ "web_filtro": {
+  "fecha": "2026-10-29T10:23:18+01:00",
+  "veredicto": "MEJORABLE",
+  "informe_velocidad": "LCP > 4 s",
+  "herramienta": "filtro_mala_web.py (Lighthouse movil, mediana de 3 pasadas)"
+ },
+ "titular": {
+  "razon_social": "Unión Familiar Malacitana de Inversiones, S.L.",
+  "cif": "B92050145",
+  "fuente": "Aviso legal de guesthousealicia.com (Union Familiar Malacitana de Inversiones, SL, CIF B92050145, C/ Conde de Ureña 12, 29012 Málaga), leído el 29/10/2026",
+  "persona_juridica": true,
+  "cadena": false,
+  "nota": "La web solo presenta este establecimiento; la sección Hostel es un tipo de habitación de la misma casa"
+ }
+}
